@@ -21,4 +21,8 @@ export class AppComponent implements OnInit {
       {%- endfor%}
       </ul>`;
   }
+
+  onClick() {
+    this.template = `{{"hello" | capitalize}}`;
+  }
 }
